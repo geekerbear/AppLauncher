@@ -1,7 +1,7 @@
 ﻿namespace AppLauncher
 {
     /// <summary>
-    /// App构建器
+    /// App构建器接口
     /// </summary>
     public interface IAppBuilder
     {

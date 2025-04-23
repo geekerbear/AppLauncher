@@ -24,7 +24,7 @@ namespace AppLauncher
 
             if (diagnosticListener.IsEnabled() && diagnosticListener.IsEnabled(AppBuildingEventName))
             {
-                Write(diagnosticListener, AppBuildingEventName, appBuilder);
+                //Write(diagnosticListener, AppBuildingEventName, appBuilder);
             }
 
             return diagnosticListener;
@@ -36,7 +36,7 @@ namespace AppLauncher
 
             if (diagnosticListener.IsEnabled() && diagnosticListener.IsEnabled(AppBuildingEventName))
             {
-                Write(diagnosticListener, AppBuildingEventName, hostApplicationBuilder.AsHostBuilder());
+                //Write(diagnosticListener, AppBuildingEventName, hostApplicationBuilder.AsHostBuilder());
             }
 
             return diagnosticListener;

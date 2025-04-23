@@ -21,4 +21,8 @@
 		<PackageReference Include="SourceGeneration.Reflection.SystemTextJson" Version="1.0.0-beta2.250415.0" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <Folder Include="Enums\" />
+	</ItemGroup>
+
 </Project>

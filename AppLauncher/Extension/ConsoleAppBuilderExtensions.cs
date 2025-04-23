@@ -1,6 +1,6 @@
 ﻿using AppLauncher.Helper;
 
-namespace AppLauncher
+namespace AppLauncher.Extension
 {
     public static class ConsoleAppBuilderExtensions
     {
